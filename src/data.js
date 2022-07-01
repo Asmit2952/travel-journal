@@ -1,4 +1,4 @@
-var data = [
+var item = [
     {
         title: "Mount Fuji",
         location: "Japan",
@@ -28,4 +28,4 @@ var data = [
     }
 ]
 
-export default data
+export default item

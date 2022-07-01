@@ -15,7 +15,7 @@ function App() {
   })
 
   return (
-    <div className="App">
+    <div className="card">
      <Header />
      <section className="cards-list">
                 {card}
