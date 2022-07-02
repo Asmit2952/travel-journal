@@ -40,6 +40,45 @@ html, body {
   font-size: 22px;
 } 
 
+.entries {
+  margin: 25px;
+  width: 495px;
+  display: flex;
+}
+
+.card--image img {
+  width: 145px;
+  height: 168px;
+  object-fit: cover;
+  padding-right: 15px;
+}
+
+.details {
+  padding: 20px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+}
+
+.location--pin {
+  color: #F55A5A;
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.location p {
+  font-size: 14px;
+  padding-right: 15px;
+}
+
+.location a {
+  color: #918E9B;
+  font-size: 12px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .globe--icon {
     animation: App-logo-spin infinite 10s linear;
