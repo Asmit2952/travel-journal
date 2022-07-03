@@ -44,13 +44,13 @@ html, body {
   margin: 25px;
   width: 495px;
   display: flex;
+  align-items: center;
 }
 
 .card--image img {
-  width: 145px;
+  width: 135px;
   height: 168px;
-  object-fit: cover;
-  padding-right: 15px;
+  border-radius: 5px;
 }
 
 .details {
@@ -81,6 +81,16 @@ ul{
 
 .card--title h1 {
   font-weight: 900;
+  font-size: 25px;
+}
+
+.travel--details h5{
+    padding-top: 15px;
+}
+
+.travel--details p {
+  font-size: 10px;
+  font-weight: 200;
 }
 
 @media (prefers-reduced-motion: no-preference) {
