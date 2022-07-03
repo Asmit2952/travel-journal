@@ -13,6 +13,9 @@ export default function Card () {
                     <li><p>Japan</p></li>
                     <li><a href="https://github.com/Asmit2952" rel="noopener noreferrer" target="_blank" >View on Google Maps</a></li>
                 </ul>
+                <div className="card--title">
+                    <h1>Mount Fuji</h1>
+                </div>
             </div>
         </div>
     )

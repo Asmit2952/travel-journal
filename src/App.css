@@ -79,6 +79,10 @@ ul{
   font-size: 12px;
 }
 
+.card--title h1 {
+  font-weight: 900;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .globe--icon {
     animation: App-logo-spin infinite 10s linear;
